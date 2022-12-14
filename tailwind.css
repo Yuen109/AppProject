@@ -6,6 +6,10 @@
   margin: 2.5rem
 }
 
+.m-3 {
+  margin: 0.75rem
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem
@@ -14,6 +18,11 @@
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem
 }
 
 .mr-3 {
@@ -30,6 +39,38 @@
 
 .mt-12 {
   margin-top: 3rem
+}
+
+.ml-3 {
+  margin-left: 0.75rem
+}
+
+.mr-2 {
+  margin-right: 0.5rem
+}
+
+.ml-2 {
+  margin-left: 0.5rem
+}
+
+.mt-2 {
+  margin-top: 0.5rem
+}
+
+.mb-12 {
+  margin-bottom: 3rem
+}
+
+.mb-20 {
+  margin-bottom: 5rem
+}
+
+.mb-40 {
+  margin-bottom: 10rem
+}
+
+.flex {
+  display: flex
 }
 
 .h-16 {
@@ -76,8 +117,24 @@
   border-radius: 0.5rem
 }
 
+.rounded-md {
+  border-radius: 0.375rem
+}
+
+.rounded {
+  border-radius: 0.25rem
+}
+
+.rounded-xl {
+  border-radius: 0.75rem
+}
+
 .border-2 {
   border-width: 2px
+}
+
+.border {
+  border-width: 1px
 }
 
 .border-b {
@@ -87,6 +144,41 @@
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity))
+}
+
+.border-gray-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(75 85 99 / var(--tw-border-opacity))
+}
+
+.border-gray-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity))
+}
+
+.border-rose-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(244 63 94 / var(--tw-border-opacity))
+}
+
+.border-gray-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity))
+}
+
+.border-sky-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(224 242 254 / var(--tw-border-opacity))
+}
+
+.border-gray-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(243 244 246 / var(--tw-border-opacity))
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity))
 }
 
 .border-b-stone-300 {
@@ -109,6 +201,26 @@
   background-color: rgb(199 210 254 / var(--tw-bg-opacity))
 }
 
+.bg-sky-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(56 189 248 / var(--tw-bg-opacity))
+}
+
+.bg-sky-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(186 230 253 / var(--tw-bg-opacity))
+}
+
+.bg-sky-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(125 211 252 / var(--tw-bg-opacity))
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity))
+}
+
 .p-3 {
   padding: 0.75rem
 }
@@ -129,6 +241,26 @@
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem
 }
 
 .text-sm {
