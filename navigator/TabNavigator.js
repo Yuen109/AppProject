@@ -6,7 +6,6 @@ import { Icon } from '@rneui/themed';
 import CustomersScreen from '../src/screens/CustomersScreen';
 import MenuScreen from '../src/screens/MenuScreen';
 import CommunityScreen from '../src/screens/CommunityScreen';
-import ChartScreen from '../src/screens/ChatScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -38,13 +37,6 @@ const TabNavigator = () => {
             type='entypo'
             color={focused ? "#EB6A7C" : "gary"}/>
           );
-        } else if (route.name === "Chat") {
-          return (
-            <Icon
-            name='users'
-            type='entypo'
-            color={focused ? "#EB6A7C" : "gary"}/>
-          );
         } else {
           return (
             <Icon 
@@ -56,10 +48,10 @@ const TabNavigator = () => {
       }
     })}>
       {/* Show taps bar */}
-      <Tab.Screen name='Community' component={CommunityScreen} />
+      <Tab.Screen name='Community' component={CommunityScreen} options={{ tabBarBadge: 3 }} />
       <Tab.Screen name='Customers' component={CustomersScreen} options={{headerShown: false}} />
       <Tab.Screen name='Menu' component={MenuScreen} />
-      <Tab.Screen name='Chat' component={ChartScreen} />
+      {/* <Tab.Screen name='Chat' component={ChartScreen} options={{headerShown: false}}/> */}
     </Tab.Navigator>
   )
 }
